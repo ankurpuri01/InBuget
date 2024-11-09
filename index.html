@@ -1,0 +1,484 @@
+<!--doctype html-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--==Title==================================-->
+<title>Price Comparison Store</title>
+<!--==Stylesheet=============================-->
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<!--==Fav-icon===============================-->
+<link rel="shortcut icon" href="images/fav-icon.png"/>
+<!--==Using-Font-Awesome=====================-->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<!--==Import-Font-Family======================-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--==Navigation================================-->
+    <nav class="navigation">
+        <!--logo-------->
+        <a href="index.html" class="logo">
+            <span>In</span>Budget
+        </a>
+        <!--menu-btn---->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!--menu-------->
+        <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#category">Categories</a></li>
+            <li><a href="#popular-bundle-pack">Bundle pack</a></li>
+            <li><a href="#download-app">About Us</a></li>
+        </ul>
+        <!--right-nav-(cart-like)-->
+        <div class="right-nav">
+            <!--like----->
+            <a href="#" class="like">
+                <i class="far fa-heart"></i>
+                <span>0</span>
+            </a>
+            <!--cart----->
+            <a href="#" class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span>0</span>
+            </a>
+        </div>
+    </nav>
+    <!--nav-end--------------------->
+    <!--==Search-banner=======================================-->
+    <section id="search-banner">
+        <!--bg--------->
+        
+        <img alt="bg-2" class="bg-2" src="image.png">
+        <!--text------->
+        <div class="search-banner-text">
+            <h1>Kirana in Budget</h1>
+            <strong>#Free comparison(Currently Prices are available only from Swiggy Instamart and zepto)</strong>
+        <!--search-box------> 
+        <form action="search.html" method="GET" class="search-box">
+          <!--icon------> 
+          <i class="fas fa-search"></i>
+          <!--input-----> 
+          <input type="text" class="search-input" placeholder="Select items to compare" name="search" required>
+          <!--btn-------> 
+          <input type="submit" class="search-btn" value="Search">
+        </form>
+
+        </div>
+    </section>
+    <!--search-banner-end--------------->
+    <!--==category=========================================-->
+    <section id="category">
+        <!--heading---------------->
+        <div class="category-heading">
+            <h2>Category</h2>
+            <span>All</span>
+        </div>
+        <!--box-container---------->
+        <div class="category-container">
+            <!--box---------------->
+            <a href="#" class="category-box">
+                <img alt="Fish" src="https://th.bing.com/th/id/OIP.g8Xm3vqOOfiUXEP2MdOnAQHaFj?rs=1&pid=ImgDetMain">
+                <span>Fish & Meat</span>
+            </a>
+            <!--box---------------->
+            <a href="#" class="category-box">
+                <img alt="Fish" src="https://th.bing.com/th/id/OIP.YB3PLk9SrtoGQmwv88N8mAHaGB?rs=1&pid=ImgDetMain">
+                <span>Vegatbles</span>
+            </a>
+            <!--box---------------->
+            <a href="#" class="category-box">
+                <img alt="Fish" src="https://th.bing.com/th/id/R.a193df859ffb1aecb5d20ebb0ac3da0c?rik=zGSK7w3hzGILnQ&riu=http%3a%2f%2fwww.kanchiorganicfarms.com%2fwp-content%2fuploads%2f2018%2f03%2fKOF-Pulses.png&ehk=vJFBj8B6TqlXqn4o1ke%2b1E9RGvuYsYaA4anMT24BEmM%3d&risl=&pid=ImgRaw&r=0">
+                <span>Dals and Pulses</span>
+            </a>
+            <!--box---------------->
+            <a href="#" class="category-box">
+                <img alt="Fish" src="https://img.freepik.com/free-photo/top-view-raw-rice-inside-plate-dark-desk_179666-27235.jpg">
+                <span>Rice</span>
+            </a>
+            <!--box---------------->
+            <a href="#" class="category-box">
+                <img alt="Fish" src="https://img3.exportersindia.com/product_images/bc-full/dir_103/3073578/refined-oil-1270272.jpg">
+                <span>Refined Oil</span>
+            </a>
+            <!--box---------------->
+            <a href="#" class="category-box">
+                <img alt="Fish" src="https://th.bing.com/th/id/OIP.fn3wMXSVMk5nf6TnuKggHQHaHa?rs=1&pid=ImgDetMain">
+                <span>Sugar</span>
+            </a>
+            <!--box---------------->
+            <a href="#" class="category-box">
+                <img alt="Fish" src="https://i5.walmartimages.com/asr/00b9e6c0-173f-427a-9567-639dc443b476.ca9c4a298cc7b7e155643bc5524c2f0b.jpeg">
+                <span>Ketchups</span>
+            </a>
+        </div>
+        
+    </section>
+    <!--category-end----------------------------------->
+    <!--==Products====================================-->
+    <section id="popular-product">
+        <!--heading----------->
+        <div class="product-heading">
+            <h3>Popular Product</h3>
+            <span>All</span>
+        </div>
+        <!--box-container------>
+        <div class="product-container">
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="https://www.farmersalmanac.com/wp-content/uploads/2020/11/Adocortland_apples-as225320764.jpeg">
+                <strong>Apple</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">120 ruppee</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="https://th.bing.com/th/id/OIP.dtfdCMoiEB8G1lWCvhwQLAAAAA?rs=1&pid=ImgDetMain">
+                <strong>Chili</strong>
+                <span class="quantity">100 g</span>
+                <span class="price">30 ruppee</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="https://www.thespruce.com/thmb/u9a5kPpC8sBe2ywU_TeKWYeQOL8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/red-onions-7110784-hero-79e37549208f4b21a95481bcb7725cb1.jpg">
+                <strong>Onion</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">60 ruppee</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="https://th.bing.com/th/id/OIP.aNg9FzOtnzs1J1J8iOgjOQHaE8?rs=1&pid=ImgDetMain">
+                <strong>Patato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">40 ruppee</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="https://th.bing.com/th/id/OIP.insySAmVfseCeimFiMIKpAHaE8?rs=1&pid=ImgDetMain">
+                <strong>Garlic</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">500 ruppee</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="https://images-prod.healthline.com/hlcmsresource/images/AN_images/tomatoes-1296x728-feature.jpg">
+                <strong>Tamato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">100 ruppee</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--popular-product-end--------------------->
+    <!--Popular-bundle-pack===================================-->
+    <section id="popular-bundle-pack">
+        <!--heading-------------->
+        <div class="product-heading">
+            <h3>Popular Bundle Pack</h3>
+        </div>
+        <!--box-container------>
+        <div class="product-container">
+            <!--box---------->
+            <div class="product-box">
+                <img alt="pack" src="https://static.vecteezy.com/system/resources/previews/012/565/434/large_2x/tomato-and-lemon-photo.jpg">
+                <strong>Big Pack</strong>
+                <span class="quantity">Lemone, Tamato, Patato</span>
+                <span class="price">90₹</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="https://thumbs.dreamstime.com/b/ginger-galric-lemon-potato-tomato-ginger-galric-lemon-potato-tomato-together-placed-isolated-white-background-nutritious-175987993.jpg">
+                <strong>Large Pack</strong>
+                <span class="quantity">Lemone , Patato</span>
+                <span class="price">50₹</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="https://thumbs.dreamstime.com/b/raw-potatoes-lemon-googly-eyes-smile-white-background-food-funny-face-177161847.jpg">
+                <strong>Small Pack</strong>
+                <span class="quantity">lemon , Patato</span>
+                <span class="price">30₹</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="pack" src="https://th.bing.com/th/id/OIP.41syBXiZ-0MpCM_ObHh4ZgHaDa?rs=1&pid=ImgDetMain">
+                <strong>Big Pack</strong>
+                <span class="quantity">Chilli ,tomato , coriander</span>
+                <span class="price">90₹</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="https://thumbs.dreamstime.com/b/red-onions-potatoes-29134548.jpg">
+                <strong>Large Pack</strong>
+                <span class="quantity">Onion ,Potato</span>
+                <span class="price">50₹</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="https://cdn.mos.cms.futurecdn.net/ApkWfRWrKKyHAx3oi3DrQR.jpg">
+                <strong>Small Pack</strong>
+                <span class="quantity">cauliflower , lime , potato</span>
+                <span class="price">3₹</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--popular-bundle-pack-end-------------------------------->
+    <!--==Clients===============================================-->
+    <section id="clients">
+        <!--heading---------------->
+        <div class="client-heading">
+            <h3>What Our Client's Say</h3>
+        </div>
+        <!--box-container---------->
+        <div class="client-box-container">
+            <!--box------------->
+            <div class="client-box">
+                <!--==profile===-->
+                <div class="client-profile">
+                    <!--img--->
+                    
+                    <!--text-->
+                    <div class="profile-text">
+                        <strong>Ankur Puri</strong>
+                        <span>delhi</span>
+                    </div>
+                </div>
+                <!--==Rating======-->
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <!--==comments===-->
+                <p>Great Website</p>
+            </div>
+            <!--box------------->
+            <div class="client-box">
+                <!--==profile===-->
+                <div class="client-profile">
+                    <!--img--->
+                   
+                    <!--text-->
+                    <div class="profile-text">
+                        <strong>Anoop singh</strong>
+                        <span>NOIDA</span>
+                    </div>
+                </div>
+                <!--==Rating======-->
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <!--==comments===-->
+                <p>Everyday kirana at cheap price</p>
+            </div>
+            <!--box------------->
+            <div class="client-box">
+                <!--==profile===-->
+                <div class="client-profile">
+                    <!--img--->
+                    
+                    <!--text-->
+                    <div class="profile-text">
+                        <strong>Ayush</strong>
+                        <span>gurugram</span>
+                    </div>
+                </div>
+                <!--==Rating======-->
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <!--==comments===-->
+                <p>Money saver</p>
+            </div>
+        </div>
+    </section>
+    <!--client-section-end---------->
+    <!--==Partnre-logo================================-->
+    <section id="partner">
+        <!--heading------------>
+        <div class="partner-heading">
+            <h3>Prices are Comapred From</h3>
+        </div>
+        <!--logo-container----->
+        <div class="logo-container">
+            <img alt="logo" src="https://seeklogo.com/images/B/blinkit-logo-568D32C8EC-seeklogo.com.png">
+            <img alt="logo" src="https://jungleworks.com/wp-content/uploads/2021/11/Zepto-1024x683.jpeg">
+            <img alt="logo" src="https://www.coolztricks.com/wp-content/uploads/2021/12/photo_2021-12-02-17.04.21.jpeg">
+            <img alt="logo" src="https://th.bing.com/th/id/OIP.FILPxQBY0I6dWkjtmfynKwHaHO?rs=1&pid=ImgDetMain">
+        </div>
+    </section>
+    <!--logo-section-end--------------------->
+    <!--==download-app====================================-->
+    <section id="download-app">
+        <!--img----------------------->
+        <div class="app-img">
+            <img alt="app" src="https://www.print3dd.com/wp-content/uploads/2017/03/Logo-inbudget-300x300.jpg">
+        </div>
+        <!--text---------------------->
+        <div class="download-app-text">
+            <strong>Beta Verion</strong>
+            <p>Currently only available in DELHI NCR . full version will be available in the next month</p>
+            <!--btns------->
+            <div class="download-btns">
+                <a href="#"><img alt="" src="images/appstore-btn.png"></a>
+                <a href="#"><img alt="" src="images/googleplay-btn.png"></a>
+            </div>
+        </div>
+    </section>
+    <!--download-app-section-end------------------------->
+    <!--==Footer=============================================-->
+    <footer>
+        <div class="footer-container">
+            <!--logo-container------>
+            <div class="footer-logo">
+                <a href="#"><span>e</span>Grocery</a>
+                <!--social----->
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <!--links------------------------->
+        <div class="footer-links">
+            <strong>Product</strong>
+            <ul>
+                <li><a href="#">Dals</a></li>
+                <li><a href="#">Whole Grain</a></li>
+                <li><a href="#">Rice</a></li>
+                <li><a href="#">oils</a></li>
+            </ul>
+        </div>
+        <!--links------------------------->
+        <div class="footer-links">
+            <strong>Category</strong>
+            <ul>
+                <li><a href="#">Grain</a></li>
+                <li><a href="#">Vegetables</a></li>
+                <li><a href="#">Ready to made</a></li>
+                <li><a href="#">Pulses</a></li>
+            </ul>
+        </div>
+        <!--links-------------------------->
+        <div class="footer-links">
+            <strong>Contact</strong>
+            <ul>
+                <li><a href="#">Phone : +91 7987033426</a></li>
+                <li><a href="#">Email : ankurpuri@gmail.com</a></li>
+            </ul>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
